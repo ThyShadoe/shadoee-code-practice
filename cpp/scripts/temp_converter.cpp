@@ -1,5 +1,6 @@
 #include <iomanip>
 #include <iostream>
+
 using namespace std;
 
 double isCelsius(double temp) {
@@ -41,17 +42,24 @@ int main(int argc, char *argv[]) {
   string tempScale;
   tempScale = tempScale[0];
 
-  cout << "Enter the temperature: ";
-  cin >> temp;
-  cout << "Enter the temperature scale: (C/F/K) ";
-  cin >> tempScale;
+  // TODO: Place inside while loop
+  while (true) {
 
-  if (tempScale == "C" || tempScale == "c") {
-    isCelsius(temp);
-  } else if (tempScale == "F" || tempScale == "f") {
-    isFahrenheit(temp);
-  } else {
-    isKelvin(temp);
+    cout << "Enter the temperature: ";
+    cin >> temp;
+    cout << "Enter the temperature scale: (C/F/K) ";
+    cin >> tempScale;
+
+    // TODO: Place inside a trycatch statement
+    if (tempScale == "C" || tempScale == "c") {
+      isCelsius(temp);
+    } else if (tempScale == "F" || tempScale == "f") {
+      isFahrenheit(temp);
+    } else if (tempScale == "K" || tempScale == "k") {
+      isKelvin(temp);
+    } else {
+      cout << "Error: Please enter a valid scale.";
+    }
   }
 
   return 0;
