@@ -1,3 +1,4 @@
+#include <cctype>
 #include <iostream>
 
 using namespace std;
@@ -13,30 +14,35 @@ int main(int argc, char *argv[]) {
     cout << "Enter second number: ";
     cin >> num2;
 
+    char char_operation = operation[0];
+    char_operation = tolower(char_operation);
+
     while (true) {
-      // TODO: Try and code this with case switches.
+      // TODO: fix smth abt symbols.
 
       cout << "Enter operation (+,-,*,/): ";
       cin >> operation;
-      if (operation == "+") {
-        double sum = num1 + num2;
+
+      double sum = num1 + num2;
+      double diff = num1 - num2;
+      double prod = num1 * num2;
+      double quot = num1 / num2;
+
+      switch (char_operation) {
+      case '+':
         cout << "Sum\t: " << sum << endl;
         break;
-      } else if (operation == "-") {
-        double diff = num1 - num2;
+      case '-':
         cout << "Difference\t: " << diff << endl;
         break;
-      } else if (operation == "*") {
-        double prod = num1 * num2;
-        cout << "Difference\t: " << prod << endl;
+      case '*':
+        cout << "Product\t: " << prod << endl;
         break;
-      } else if (operation == "/") {
-        double quot = num1 / num2;
+      case '/':
         cout << "Quotient\t: " << quot << endl;
         break;
-      } else {
+      default:
         cout << "You entered an invalid operation.\n";
-        continue;
       }
     }
 
