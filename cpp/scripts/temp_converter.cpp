@@ -1,3 +1,4 @@
+#include <cctype>
 #include <iomanip>
 #include <iostream>
 
@@ -39,26 +40,43 @@ double isKelvin(double temp) {
 int main(int argc, char *argv[]) {
   // Declare variables
   double temp;
-  string tempScale;
-  tempScale = tempScale[0];
+  string scale;
+  scale = scale[0];
 
-  // TODO: Place inside while loop
   while (true) {
 
     cout << "Enter the temperature: ";
     cin >> temp;
-    cout << "Enter the temperature scale: (C/F/K) ";
-    cin >> tempScale;
+    cout << "Enter the scale (celsius, fahrenheit, kelvin): ";
+    cin >> scale;
 
-    // TODO: Place inside a trycatch statement
-    if (tempScale == "C" || tempScale == "c") {
+    char char_scale = scale[0];
+    char_scale = tolower(char_scale);
+
+    switch (char_scale) {
+    case 'c':
       isCelsius(temp);
-    } else if (tempScale == "F" || tempScale == "f") {
+      break;
+    case 'f':
       isFahrenheit(temp);
-    } else if (tempScale == "K" || tempScale == "k") {
+      break;
+    case 'k':
       isKelvin(temp);
-    } else {
-      cout << "Error: Please enter a valid scale.";
+      break;
+    default:
+      cout << "Invalid temperature scale: Enter a valid scale.";
+    }
+
+    string repeatProgram;
+
+    cout << "Enter a new value? (y/n): ";
+    cin >> repeatProgram;
+
+    char char_repeatProgram = repeatProgram[0];
+    char_repeatProgram = tolower(char_repeatProgram);
+
+    if (char_repeatProgram != 'y') {
+      break;
     }
   }
 
