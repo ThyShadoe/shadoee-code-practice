@@ -8,7 +8,6 @@ double isCelsius(double temp) {
   double f, k;
   f = temp * 1.8 + 32;
   k = temp + 273.15;
-  cout << "\n";
   cout << "Converted to:\n";
   cout << fixed << setprecision(2);
   cout << "Fahrenheit: " << f << endl;
@@ -19,7 +18,6 @@ double isFahrenheit(double temp) {
   double c, k;
   c = (temp - 32) / 1.8;
   k = c + 273.15;
-  cout << "\n";
   cout << "Converted to\n";
   cout << fixed << setprecision(2);
   cout << "Celsius: " << c << endl;
@@ -31,7 +29,6 @@ double isKelvin(double temp) {
   double c, f;
   c = temp - 273.15;
   f = c * 1.8 + 32;
-  cout << "\n";
   cout << "Converted to:\n";
   cout << fixed << setprecision(2);
   cout << "Celsius: " << c << endl;
@@ -52,6 +49,7 @@ int main(int argc, char *argv[]) {
     cin >> temp;
     cout << "Enter the scale (celsius, fahrenheit, kelvin): ";
     cin >> scale;
+    cout << "\n";
 
     char char_scale = scale[0];
     char_scale = tolower(char_scale);
@@ -67,7 +65,7 @@ int main(int argc, char *argv[]) {
       isKelvin(temp);
       break;
     default:
-      cout << "Invalid temperature scale: Enter a valid scale.";
+      cout << "Invalid temperature scale: Enter a valid scale." << endl;
     }
 
     string repeatProgram;
