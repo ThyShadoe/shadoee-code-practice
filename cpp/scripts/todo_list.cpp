@@ -54,7 +54,7 @@ public:
     cout << "4. Mark Task as Completed\n";
     cout << "5. Edit Task\n";
     cout << "6. Exit\n";
-    cout << "--------------------------------------"
+    cout << "-------------------------------------"
             "\n";
   }
 
@@ -73,6 +73,7 @@ public:
     cout << "Task added successfully!" << endl;
   }
 
+  // Delete existing tasks
   void deleteTask() {
     if (tasks.empty()) {
       cout << "No tasks to delete!" << endl;
@@ -93,6 +94,7 @@ public:
     }
   }
 
+  // Display existing tasks
   void displayTasks() {
     if (tasks.empty()) {
       cout << "No tasks to display!" << endl;
@@ -105,6 +107,7 @@ public:
     }
   }
 
+  // Mark tasks as completed
   void markTaskCompleted() {
     if (tasks.empty()) {
       cout << "No tasks to mark as completed!" << endl;
@@ -126,6 +129,7 @@ public:
     }
   }
 
+  // Edit existing tasks
   void editTask() {
     if (tasks.empty()) {
       cout << "No tasks to edit!" << endl;
@@ -160,6 +164,7 @@ public:
     }
   }
 
+  // Point input to different menus
   void run() {
     int choice;
     do {
@@ -192,10 +197,10 @@ public:
     } while (choice != 6);
   }
 };
+
 int main() {
   ToDoList toDoList;
   toDoList.run();
-}
 
-return 0;
+  return 0;
 }
