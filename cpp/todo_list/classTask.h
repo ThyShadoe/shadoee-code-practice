@@ -197,10 +197,3 @@ public:
     } while (choice != 6);
   }
 };
-
-int main() {
-  ToDoList toDoList;
-  toDoList.run();
-
-  return 0;
-}
