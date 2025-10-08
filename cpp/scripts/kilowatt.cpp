@@ -8,7 +8,7 @@ int main() {
   const double PRICE_100 = 11.50, PRICE_200 = 12.50, PRICE_300 = 13.50,
                PRICE_300P = 14.50;
   double totalkWh, totalBill;
-  double kWh100, kWh200, kWh300, kWh300P;
+  double kWh1, kWh2, kWh3, kWh3p;
   string currency = "₱";
 
   cout << "Enter the total kWh consumption: ";
@@ -21,29 +21,29 @@ int main() {
   } else {
 
     if (totalkWh >= 0 && totalkWh <= 100) {
-      kWh100 = totalkWh * PRICE_100;
-      totalBill = kWh100;
+      kWh1 = totalkWh * PRICE_100;
+      totalBill = kWh1;
       cout << "Your total bill is: " << currency << totalBill << endl;
 
     } else if (totalkWh > 100 && totalkWh <= 200) {
-      kWh100 = 100 * PRICE_100;
-      kWh200 = (totalkWh - 100) * PRICE_200;
-      totalBill = kWh100 + kWh200;
+      kWh1 = 100 * PRICE_100;
+      kWh2 = (totalkWh - 100) * PRICE_200;
+      totalBill = kWh1 + kWh2;
       cout << "Your total bill is: " << currency << totalBill << endl;
 
     } else if (totalkWh > 200 && totalkWh <= 300) {
-      kWh100 = 100 * PRICE_100;
-      kWh200 = 100 * PRICE_200;
-      kWh300 = (totalkWh - 200) * PRICE_300;
-      totalBill = kWh100 + kWh200 + kWh300;
+      kWh1 = 100 * PRICE_100;
+      kWh2 = 100 * PRICE_200;
+      kWh3 = (totalkWh - 200) * PRICE_300;
+      totalBill = kWh1 + kWh2 + kWh3;
       cout << "Your total bill is: " << currency << totalBill << endl;
 
     } else if (totalkWh > 300) {
-      kWh100 = 100 * PRICE_100;
-      kWh200 = 100 * PRICE_200;
-      kWh300 = 100 * PRICE_300;
-      kWh300P = (totalkWh - 300) * PRICE_300P;
-      totalBill = kWh100 + kWh200 + kWh300 + kWh300P;
+      kWh1 = 100 * PRICE_100;
+      kWh2 = 100 * PRICE_200;
+      kWh3 = 100 * PRICE_300;
+      kWh3p = (totalkWh - 300) * PRICE_300P;
+      totalBill = kWh1 + kWh2 + kWh3 + kWh3p;
       cout << "Your total bill is: " << currency << totalBill << endl;
 
     } else {
