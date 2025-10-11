@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/shadoee/Work/shadoee-code-practice/cpp/gui_test/build",
+  "command": "/usr/bin/c++ -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK3__ -D__WXGTK__ -isystem /usr/lib/wx/include/gtk3-unicode-3.2 -isystem /usr/include/wx-3.2 -o CMakeFiles/wxapp.dir/main.cpp.o -c /home/shadoee/Work/shadoee-code-practice/cpp/gui_test/main.cpp",
+  "file": "/home/shadoee/Work/shadoee-code-practice/cpp/gui_test/main.cpp",
+  "output": "/home/shadoee/Work/shadoee-code-practice/cpp/gui_test/build/CMakeFiles/wxapp.dir/main.cpp.o"
+}
+]
