@@ -67,5 +67,3 @@ ln -sf build/compile_commands.json compile_commands.json
 ```
 
 - To see exact compile flags: wx-config --cxxflags --libs
-
-That's it — copy this template for new projects.
