@@ -2,5 +2,5 @@ cmake_minimum_required(VERSION 3.15)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-project(ToDoList VERSION 1.0)
-add_executable(todolist src/main.cpp)
+project(InvManager VERSION 1.0)
+add_executable(invmanager src/main.cpp)

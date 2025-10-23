@@ -1,0 +1,3 @@
+/home/shadoee/Work/shadoee-code-practice/cpp/todo-list/build/CMakeFiles/todolist.dir
+/home/shadoee/Work/shadoee-code-practice/cpp/todo-list/build/CMakeFiles/edit_cache.dir
+/home/shadoee/Work/shadoee-code-practice/cpp/todo-list/build/CMakeFiles/rebuild_cache.dir

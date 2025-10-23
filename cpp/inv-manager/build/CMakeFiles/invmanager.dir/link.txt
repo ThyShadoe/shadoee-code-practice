@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/invmanager.dir/link.d CMakeFiles/invmanager.dir/src/main.cpp.o -o invmanager
