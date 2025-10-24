@@ -90,6 +90,7 @@ public:
     for (int i = 0; i < products.size(); i++) {
       cout << i + 1 << ". ";
       products[i].displayProduct();
+      cout << endl;
     }
   }
 
