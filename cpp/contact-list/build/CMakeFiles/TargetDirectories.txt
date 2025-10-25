@@ -1,0 +1,3 @@
+/home/shadoee/Work/shadoee-code-practice/cpp/contact-list/build/CMakeFiles/contacts.dir
+/home/shadoee/Work/shadoee-code-practice/cpp/contact-list/build/CMakeFiles/edit_cache.dir
+/home/shadoee/Work/shadoee-code-practice/cpp/contact-list/build/CMakeFiles/rebuild_cache.dir
