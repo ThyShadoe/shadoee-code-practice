@@ -44,7 +44,7 @@ public:
     getline(ss, lastName, ',');
     getline(ss, firstName, ',');
     getline(ss, emailAddress, ',');
-    getline(ss, phoneNumber, ',');
+    getline(ss, phoneNumber);
 
     return Contact(lastName, firstName, emailAddress, phoneNumber);
   }
@@ -59,12 +59,18 @@ private:
 class ContactList {
 public:
   void displayMenu() {
-    cout << "\nContact List\n";
+    cout << "\n==========================\n";
+    cout << "--------------------------\n";
+    cout << "CONTACT MANAGER\n";
+    cout << "--------------------------\n";
     cout << "1. Add a new contact\n";
     cout << "2. Delete a contact\n";
     cout << "3. Update existing contact\n";
     cout << "4. Show all contacts\n";
+    cout << "--------------------------\n";
     cout << "5. Exit\n";
+    cout << "--------------------------\n"
+         << "==========================\n";
   }
 
   ContactList() { loadContactsFromFile(); }
@@ -101,7 +107,7 @@ public:
 
   void addContact() {
     string lastName, firstName, emailAddress, phoneNumber;
-    system("clear");
+
     cout << "Enter first name: ";
     cin.ignore();
     getline(cin, firstName);
@@ -123,7 +129,7 @@ public:
       cout << "You have no contacts to remove!\n";
       return;
     }
-    system("clear");
+
     cout << "Your Contacts: \n";
     for (int i = 0; i < contacts.size(); i++) {
       cout << i + 1 << ". " << contacts[i].getFirstName() << " "
@@ -140,8 +146,8 @@ public:
     }
   }
 
+  // TODO: Add a way to do the thingy where its only that thingy
   void showContacts() {
-    system("clear");
     if (contacts.empty()) {
       cout << "You have no contacts to show!\n";
       return;
@@ -157,7 +163,6 @@ public:
   void updateContact() {
     int contactNum;
     string lastName, firstName, emailAddress, phoneNumber;
-    system("clear");
     if (contacts.empty()) {
       cout << "You have to contacts to update!\n";
       return;
@@ -203,15 +208,19 @@ public:
       cin >> choice;
       switch (choice) {
       case 1:
+        system("clear");
         addContact();
         break;
       case 2:
+        system("clear");
         removeContact();
         break;
       case 3:
+        system("clear");
         updateContact();
         break;
       case 4:
+        system("clear");
         showContacts();
         break;
       case 5:
