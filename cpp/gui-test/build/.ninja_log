@@ -1,6 +1,0 @@
-# ninja log v6
-1654	1815	1760166298167133431	wxapp	a16b4c7227afef00
-1	1654	1760166296514137650	CMakeFiles/wxapp.dir/main.cpp.o	1edada5350065709
-1	227	1760166403179105639	build.ninja	f72a8157eab11fcc
-1	227	1760166403179105639	/home/shadoee/Work/shadoee-code-practice/cpp/gui_test/build/cmake_install.cmake	f72a8157eab11fcc
-1	161	1760166403182869820	wxapp	a16b4c7227afef00

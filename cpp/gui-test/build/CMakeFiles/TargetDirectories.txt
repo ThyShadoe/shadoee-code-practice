@@ -1,3 +1,0 @@
-/home/shadoee/Work/shadoee-code-practice/cpp/gui_test/build/CMakeFiles/wxapp.dir
-/home/shadoee/Work/shadoee-code-practice/cpp/gui_test/build/CMakeFiles/edit_cache.dir
-/home/shadoee/Work/shadoee-code-practice/cpp/gui_test/build/CMakeFiles/rebuild_cache.dir
