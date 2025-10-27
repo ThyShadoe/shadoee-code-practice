@@ -37,11 +37,11 @@ public:
     cout << "\n==========================\n";
     cout << "INVENTORY MANAGER\n";
     cout << "==========================\n";
-    cout << "1. Add a Product\n";
-    cout << "2. Remove a Product\n";
-    cout << "3. Display All Products\n";
-    cout << "4. Update Existing Product\n";
-    cout << "5. Exit\n";
+    cout << "[1] Add a Product\n";
+    cout << "[2] Remove a Product\n";
+    cout << "[3] Display All Products\n";
+    cout << "[4] Update Existing Product\n";
+    cout << "[5] Exit\n";
     cout << "==========================\n";
   }
 
