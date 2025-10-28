@@ -20,9 +20,9 @@ public:
   }
   void setStock(const string &stock) { this->stock = stock; }
   void displayProduct() const {
-    cout << "Product Name:\t" << name << endl;
-    cout << "Expiration Date:\t" << expiryDate << endl;
-    cout << "Remaining Stock:\t" << stock << endl;
+    cout << "Product Name\t:\t" << name << endl;
+    cout << "Expiration Date\t:\t" << expiryDate << endl;
+    cout << "Remaining Stock\t:\t" << stock << endl;
   }
 
 private:
@@ -71,8 +71,11 @@ public:
     for (int i = 0; i < products.size(); i++) {
       cout << i + 1 << ". " << products[i].getName() << endl;
     }
-    cout << "Enter the Product number to remove: ";
+    cout << "Enter the Product number to remove (0 to go back) : ";
     cin >> productNum;
+    if (productNum == 0) {
+      return;
+    }
     if (productNum >= 1 && productNum <= products.size()) {
       products.erase(products.begin() + productNum - 1);
       cout << "Product has been removed successfully!\n";
@@ -95,7 +98,6 @@ public:
   }
 
   void updateProduct() {
-    // TODO: do some more research abt this
     int productNum;
     string name, expiryDate, stock;
     if (products.empty()) {
@@ -106,8 +108,11 @@ public:
     for (int i = 0; i < products.size(); i++) {
       cout << i + 1 << ". " << products[i].getName() << endl;
     }
-    cout << "Enter the product number to update: ";
+    cout << "Enter the product number to update (0 to go back) : ";
     cin >> productNum;
+    if (productNum == 0) {
+      return;
+    }
     if (productNum >= 1 && productNum <= products.size()) {
       Product &product = products[productNum - 1];
       cout << "Enter new product name: (current: " << product.getName()
@@ -139,15 +144,19 @@ public:
 
       switch (choice) {
       case 1:
+        system("clear");
         addProduct();
         break;
       case 2:
+        system("clear");
         removeProduct();
         break;
       case 3:
+        system("clear");
         displayProducts();
         break;
       case 4:
+        system("clear");
         updateProduct();
         break;
       case 5:

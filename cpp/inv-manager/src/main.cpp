@@ -2,6 +2,7 @@
 
 int main(int argc, char *argv[]) {
 
+  system("clear");
   InvManager InvManager;
   InvManager.run();
 
