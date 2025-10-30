@@ -1,0 +1,3 @@
+/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/fueltracker.dir
+/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/edit_cache.dir
+/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/rebuild_cache.dir
