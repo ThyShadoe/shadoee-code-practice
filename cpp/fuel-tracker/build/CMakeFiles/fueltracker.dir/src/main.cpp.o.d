@@ -1,6 +1,8 @@
 CMakeFiles/fueltracker.dir/src/main.cpp.o: \
  /home/shadoee/Work/shadoee-code-practice/fuel-tracker/src/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/15.2.1/iostream \
+ /usr/include/stdc-predef.h \
+ /home/shadoee/Work/shadoee-code-practice/fuel-tracker/src/classes.h \
+ /usr/include/c++/15.2.1/iostream \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
