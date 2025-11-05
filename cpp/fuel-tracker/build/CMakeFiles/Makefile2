@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /usr/sbin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /usr/sbin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shadoee/Work/shadoee-code-practice/fuel-tracker
+CMAKE_SOURCE_DIR = /home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shadoee/Work/shadoee-code-practice/fuel-tracker/build
+CMAKE_BINARY_DIR = /home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/fueltracker.dir/clean
 CMakeFiles/fueltracker.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fueltracker.dir/build.make CMakeFiles/fueltracker.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fueltracker.dir/build.make CMakeFiles/fueltracker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles --progress-num=1,2 "Built target fueltracker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles --progress-num=1,2 "Built target fueltracker"
 .PHONY : CMakeFiles/fueltracker.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fueltracker.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fueltracker.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles 0
 .PHONY : CMakeFiles/fueltracker.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ fueltracker: CMakeFiles/fueltracker.dir/rule
 # codegen rule for target.
 CMakeFiles/fueltracker.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fueltracker.dir/build.make CMakeFiles/fueltracker.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles --progress-num=1,2 "Finished codegen for target fueltracker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles --progress-num=1,2 "Finished codegen for target fueltracker"
 .PHONY : CMakeFiles/fueltracker.dir/codegen
 
 # clean rule for target.

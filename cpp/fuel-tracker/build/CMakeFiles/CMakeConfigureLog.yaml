@@ -20,45 +20,39 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/"
-      - "/home/shadoee/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/usr/sbin/"
       - "/usr/bin/"
-      - "/var/lib/flatpak/exports/bin/"
+      - "/sbin/"
+      - "/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/shadoee/.spicetify/"
-      - "/bin/"
     searched_directories:
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/uname"
-      - "/home/shadoee/.local/share/omarchy/bin/uname"
       - "/usr/local/sbin/uname"
       - "/usr/local/bin/uname"
-    found: "/usr/bin/uname"
+    found: "/usr/sbin/uname"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "message-v1"
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
       - "CMakeLists.txt:5 (project)"
     message: |
-      The system is: Linux - 6.17.5-arch1-1 - x86_64
+      The system is: Linux - 6.17.6-2-cachyos - x86_64
   -
     kind: "find-v1"
     backtrace:
@@ -80,48 +74,42 @@ events:
       - "make"
       - "smake"
     candidate_directories:
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/"
-      - "/home/shadoee/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/usr/sbin/"
       - "/usr/bin/"
-      - "/var/lib/flatpak/exports/bin/"
+      - "/sbin/"
+      - "/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/shadoee/.spicetify/"
     searched_directories:
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/gmake"
-      - "/home/shadoee/.local/share/omarchy/bin/gmake"
       - "/usr/local/sbin/gmake"
       - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
       - "/usr/bin/gmake"
-      - "/var/lib/flatpak/exports/bin/gmake"
+      - "/sbin/gmake"
+      - "/bin/gmake"
       - "/usr/lib/jvm/default/bin/gmake"
       - "/usr/bin/site_perl/gmake"
       - "/usr/bin/vendor_perl/gmake"
       - "/usr/bin/core_perl/gmake"
-      - "/home/shadoee/.spicetify/gmake"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/make"
-      - "/home/shadoee/.local/share/omarchy/bin/make"
       - "/usr/local/sbin/make"
       - "/usr/local/bin/make"
-    found: "/usr/bin/make"
+    found: "/usr/sbin/make"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "find-v1"
     backtrace:
@@ -148,37 +136,32 @@ events:
       - "icx"
       - "clang"
     candidate_directories:
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/"
-      - "/home/shadoee/.local/share/omarchy/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/usr/sbin/"
       - "/usr/bin/"
-      - "/var/lib/flatpak/exports/bin/"
+      - "/sbin/"
+      - "/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/shadoee/.spicetify/"
     searched_directories:
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/cc"
-      - "/home/shadoee/.local/share/omarchy/bin/cc"
       - "/usr/local/sbin/cc"
       - "/usr/local/bin/cc"
-    found: "/usr/bin/cc"
+    found: "/usr/sbin/cc"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "find-v1"
     backtrace:
@@ -206,18 +189,16 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "message-v1"
     backtrace:
@@ -227,7 +208,7 @@ events:
       - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /usr/bin/cc 
+      Compiler: /usr/sbin/cc 
       Build flags: 
       Id flags:  
       
@@ -238,7 +219,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/4.1.2/CompilerIdC/a.out
+        /home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/4.1.2/CompilerIdC/a.out
       
   -
     kind: "find-v1"
@@ -260,32 +241,29 @@ events:
     names:
       - "ar"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/"
-      - "/home/shadoee/.local/share/omarchy/bin/"
+      - "/usr/sbin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/shadoee/.spicetify/"
-    found: "/usr/bin/ar"
+    found: "/usr/sbin/ar"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "find-v1"
     backtrace:
@@ -306,32 +284,29 @@ events:
     names:
       - "ranlib"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/"
-      - "/home/shadoee/.local/share/omarchy/bin/"
+      - "/usr/sbin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/shadoee/.spicetify/"
-    found: "/usr/bin/ranlib"
+    found: "/usr/sbin/ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "find-v1"
     backtrace:
@@ -352,32 +327,29 @@ events:
     names:
       - "strip"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/"
-      - "/home/shadoee/.local/share/omarchy/bin/"
+      - "/usr/sbin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/shadoee/.spicetify/"
-    found: "/usr/bin/strip"
+    found: "/usr/sbin/strip"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "find-v1"
     backtrace:
@@ -398,32 +370,29 @@ events:
     names:
       - "ld"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/"
-      - "/home/shadoee/.local/share/omarchy/bin/"
+      - "/usr/sbin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/shadoee/.spicetify/"
-    found: "/usr/bin/ld"
+    found: "/usr/sbin/ld"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "find-v1"
     backtrace:
@@ -444,32 +413,29 @@ events:
     names:
       - "nm"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/"
-      - "/home/shadoee/.local/share/omarchy/bin/"
+      - "/usr/sbin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/shadoee/.spicetify/"
-    found: "/usr/bin/nm"
+    found: "/usr/sbin/nm"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "find-v1"
     backtrace:
@@ -490,32 +456,29 @@ events:
     names:
       - "objdump"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/"
-      - "/home/shadoee/.local/share/omarchy/bin/"
+      - "/usr/sbin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/shadoee/.spicetify/"
-    found: "/usr/bin/objdump"
+    found: "/usr/sbin/objdump"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "find-v1"
     backtrace:
@@ -536,32 +499,29 @@ events:
     names:
       - "objcopy"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/"
-      - "/home/shadoee/.local/share/omarchy/bin/"
+      - "/usr/sbin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/shadoee/.spicetify/"
-    found: "/usr/bin/objcopy"
+    found: "/usr/sbin/objcopy"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "find-v1"
     backtrace:
@@ -582,32 +542,29 @@ events:
     names:
       - "readelf"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/"
-      - "/home/shadoee/.local/share/omarchy/bin/"
+      - "/usr/sbin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/shadoee/.spicetify/"
-    found: "/usr/bin/readelf"
+    found: "/usr/sbin/readelf"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "find-v1"
     backtrace:
@@ -628,44 +585,40 @@ events:
     names:
       - "dlltool"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/"
-      - "/home/shadoee/.local/share/omarchy/bin/"
+      - "/usr/sbin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/shadoee/.spicetify/"
     searched_directories:
-      - "/usr/bin/dlltool"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/dlltool"
-      - "/home/shadoee/.local/share/omarchy/bin/dlltool"
+      - "/usr/sbin/dlltool"
       - "/usr/local/sbin/dlltool"
       - "/usr/local/bin/dlltool"
-      - "/var/lib/flatpak/exports/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
       - "/usr/lib/jvm/default/bin/dlltool"
       - "/usr/bin/site_perl/dlltool"
       - "/usr/bin/vendor_perl/dlltool"
       - "/usr/bin/core_perl/dlltool"
-      - "/home/shadoee/.spicetify/dlltool"
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "find-v1"
     backtrace:
@@ -686,32 +639,29 @@ events:
     names:
       - "addr2line"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/"
-      - "/home/shadoee/.local/share/omarchy/bin/"
+      - "/usr/sbin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/shadoee/.spicetify/"
-    found: "/usr/bin/addr2line"
+    found: "/usr/sbin/addr2line"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "find-v1"
     backtrace:
@@ -732,44 +682,40 @@ events:
     names:
       - "tapi"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/"
-      - "/home/shadoee/.local/share/omarchy/bin/"
+      - "/usr/sbin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/shadoee/.spicetify/"
     searched_directories:
-      - "/usr/bin/tapi"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/tapi"
-      - "/home/shadoee/.local/share/omarchy/bin/tapi"
+      - "/usr/sbin/tapi"
       - "/usr/local/sbin/tapi"
       - "/usr/local/bin/tapi"
-      - "/var/lib/flatpak/exports/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
       - "/usr/lib/jvm/default/bin/tapi"
       - "/usr/bin/site_perl/tapi"
       - "/usr/bin/vendor_perl/tapi"
       - "/usr/bin/core_perl/tapi"
-      - "/home/shadoee/.spicetify/tapi"
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "find-v1"
     backtrace:
@@ -793,66 +739,60 @@ events:
       - "gcc-ar15"
       - "gcc-ar"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/"
-      - "/home/shadoee/.local/share/omarchy/bin/"
+      - "/usr/sbin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/shadoee/.spicetify/"
     searched_directories:
-      - "/usr/bin/gcc-ar-15.2"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/gcc-ar-15.2"
-      - "/home/shadoee/.local/share/omarchy/bin/gcc-ar-15.2"
+      - "/usr/sbin/gcc-ar-15.2"
       - "/usr/local/sbin/gcc-ar-15.2"
       - "/usr/local/bin/gcc-ar-15.2"
-      - "/var/lib/flatpak/exports/bin/gcc-ar-15.2"
+      - "/usr/bin/gcc-ar-15.2"
+      - "/sbin/gcc-ar-15.2"
+      - "/bin/gcc-ar-15.2"
       - "/usr/lib/jvm/default/bin/gcc-ar-15.2"
       - "/usr/bin/site_perl/gcc-ar-15.2"
       - "/usr/bin/vendor_perl/gcc-ar-15.2"
       - "/usr/bin/core_perl/gcc-ar-15.2"
-      - "/home/shadoee/.spicetify/gcc-ar-15.2"
-      - "/usr/bin/gcc-ar-15"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/gcc-ar-15"
-      - "/home/shadoee/.local/share/omarchy/bin/gcc-ar-15"
+      - "/usr/sbin/gcc-ar-15"
       - "/usr/local/sbin/gcc-ar-15"
       - "/usr/local/bin/gcc-ar-15"
-      - "/var/lib/flatpak/exports/bin/gcc-ar-15"
+      - "/usr/bin/gcc-ar-15"
+      - "/sbin/gcc-ar-15"
+      - "/bin/gcc-ar-15"
       - "/usr/lib/jvm/default/bin/gcc-ar-15"
       - "/usr/bin/site_perl/gcc-ar-15"
       - "/usr/bin/vendor_perl/gcc-ar-15"
       - "/usr/bin/core_perl/gcc-ar-15"
-      - "/home/shadoee/.spicetify/gcc-ar-15"
-      - "/usr/bin/gcc-ar15"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/gcc-ar15"
-      - "/home/shadoee/.local/share/omarchy/bin/gcc-ar15"
+      - "/usr/sbin/gcc-ar15"
       - "/usr/local/sbin/gcc-ar15"
       - "/usr/local/bin/gcc-ar15"
-      - "/var/lib/flatpak/exports/bin/gcc-ar15"
+      - "/usr/bin/gcc-ar15"
+      - "/sbin/gcc-ar15"
+      - "/bin/gcc-ar15"
       - "/usr/lib/jvm/default/bin/gcc-ar15"
       - "/usr/bin/site_perl/gcc-ar15"
       - "/usr/bin/vendor_perl/gcc-ar15"
       - "/usr/bin/core_perl/gcc-ar15"
-      - "/home/shadoee/.spicetify/gcc-ar15"
-    found: "/usr/bin/gcc-ar"
+    found: "/usr/sbin/gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "find-v1"
     backtrace:
@@ -876,66 +816,60 @@ events:
       - "gcc-ranlib15"
       - "gcc-ranlib"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/"
-      - "/home/shadoee/.local/share/omarchy/bin/"
+      - "/usr/sbin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/shadoee/.spicetify/"
     searched_directories:
-      - "/usr/bin/gcc-ranlib-15.2"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/gcc-ranlib-15.2"
-      - "/home/shadoee/.local/share/omarchy/bin/gcc-ranlib-15.2"
+      - "/usr/sbin/gcc-ranlib-15.2"
       - "/usr/local/sbin/gcc-ranlib-15.2"
       - "/usr/local/bin/gcc-ranlib-15.2"
-      - "/var/lib/flatpak/exports/bin/gcc-ranlib-15.2"
+      - "/usr/bin/gcc-ranlib-15.2"
+      - "/sbin/gcc-ranlib-15.2"
+      - "/bin/gcc-ranlib-15.2"
       - "/usr/lib/jvm/default/bin/gcc-ranlib-15.2"
       - "/usr/bin/site_perl/gcc-ranlib-15.2"
       - "/usr/bin/vendor_perl/gcc-ranlib-15.2"
       - "/usr/bin/core_perl/gcc-ranlib-15.2"
-      - "/home/shadoee/.spicetify/gcc-ranlib-15.2"
-      - "/usr/bin/gcc-ranlib-15"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/gcc-ranlib-15"
-      - "/home/shadoee/.local/share/omarchy/bin/gcc-ranlib-15"
+      - "/usr/sbin/gcc-ranlib-15"
       - "/usr/local/sbin/gcc-ranlib-15"
       - "/usr/local/bin/gcc-ranlib-15"
-      - "/var/lib/flatpak/exports/bin/gcc-ranlib-15"
+      - "/usr/bin/gcc-ranlib-15"
+      - "/sbin/gcc-ranlib-15"
+      - "/bin/gcc-ranlib-15"
       - "/usr/lib/jvm/default/bin/gcc-ranlib-15"
       - "/usr/bin/site_perl/gcc-ranlib-15"
       - "/usr/bin/vendor_perl/gcc-ranlib-15"
       - "/usr/bin/core_perl/gcc-ranlib-15"
-      - "/home/shadoee/.spicetify/gcc-ranlib-15"
-      - "/usr/bin/gcc-ranlib15"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/gcc-ranlib15"
-      - "/home/shadoee/.local/share/omarchy/bin/gcc-ranlib15"
+      - "/usr/sbin/gcc-ranlib15"
       - "/usr/local/sbin/gcc-ranlib15"
       - "/usr/local/bin/gcc-ranlib15"
-      - "/var/lib/flatpak/exports/bin/gcc-ranlib15"
+      - "/usr/bin/gcc-ranlib15"
+      - "/sbin/gcc-ranlib15"
+      - "/bin/gcc-ranlib15"
       - "/usr/lib/jvm/default/bin/gcc-ranlib15"
       - "/usr/bin/site_perl/gcc-ranlib15"
       - "/usr/bin/vendor_perl/gcc-ranlib15"
       - "/usr/bin/core_perl/gcc-ranlib15"
-      - "/home/shadoee/.spicetify/gcc-ranlib15"
-    found: "/usr/bin/gcc-ranlib"
+    found: "/usr/sbin/gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "find-v1"
     backtrace:
@@ -965,22 +899,20 @@ events:
       - "icx"
       - "clang++"
     candidate_directories:
-      - "/usr/bin/"
-    found: "/usr/bin/c++"
+      - "/usr/sbin/"
+    found: "/usr/sbin/c++"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "find-v1"
     backtrace:
@@ -1008,18 +940,16 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "message-v1"
     backtrace:
@@ -1029,7 +959,7 @@ events:
       - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/c++ 
+      Compiler: /usr/sbin/c++ 
       Build flags: 
       Id flags:  
       
@@ -1040,7 +970,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/4.1.2/CompilerIdCXX/a.out
+        /home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/4.1.2/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -1065,66 +995,60 @@ events:
       - "gcc-ar15"
       - "gcc-ar"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/"
-      - "/home/shadoee/.local/share/omarchy/bin/"
+      - "/usr/sbin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/shadoee/.spicetify/"
     searched_directories:
-      - "/usr/bin/gcc-ar-15.2"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/gcc-ar-15.2"
-      - "/home/shadoee/.local/share/omarchy/bin/gcc-ar-15.2"
+      - "/usr/sbin/gcc-ar-15.2"
       - "/usr/local/sbin/gcc-ar-15.2"
       - "/usr/local/bin/gcc-ar-15.2"
-      - "/var/lib/flatpak/exports/bin/gcc-ar-15.2"
+      - "/usr/bin/gcc-ar-15.2"
+      - "/sbin/gcc-ar-15.2"
+      - "/bin/gcc-ar-15.2"
       - "/usr/lib/jvm/default/bin/gcc-ar-15.2"
       - "/usr/bin/site_perl/gcc-ar-15.2"
       - "/usr/bin/vendor_perl/gcc-ar-15.2"
       - "/usr/bin/core_perl/gcc-ar-15.2"
-      - "/home/shadoee/.spicetify/gcc-ar-15.2"
-      - "/usr/bin/gcc-ar-15"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/gcc-ar-15"
-      - "/home/shadoee/.local/share/omarchy/bin/gcc-ar-15"
+      - "/usr/sbin/gcc-ar-15"
       - "/usr/local/sbin/gcc-ar-15"
       - "/usr/local/bin/gcc-ar-15"
-      - "/var/lib/flatpak/exports/bin/gcc-ar-15"
+      - "/usr/bin/gcc-ar-15"
+      - "/sbin/gcc-ar-15"
+      - "/bin/gcc-ar-15"
       - "/usr/lib/jvm/default/bin/gcc-ar-15"
       - "/usr/bin/site_perl/gcc-ar-15"
       - "/usr/bin/vendor_perl/gcc-ar-15"
       - "/usr/bin/core_perl/gcc-ar-15"
-      - "/home/shadoee/.spicetify/gcc-ar-15"
-      - "/usr/bin/gcc-ar15"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/gcc-ar15"
-      - "/home/shadoee/.local/share/omarchy/bin/gcc-ar15"
+      - "/usr/sbin/gcc-ar15"
       - "/usr/local/sbin/gcc-ar15"
       - "/usr/local/bin/gcc-ar15"
-      - "/var/lib/flatpak/exports/bin/gcc-ar15"
+      - "/usr/bin/gcc-ar15"
+      - "/sbin/gcc-ar15"
+      - "/bin/gcc-ar15"
       - "/usr/lib/jvm/default/bin/gcc-ar15"
       - "/usr/bin/site_perl/gcc-ar15"
       - "/usr/bin/vendor_perl/gcc-ar15"
       - "/usr/bin/core_perl/gcc-ar15"
-      - "/home/shadoee/.spicetify/gcc-ar15"
-    found: "/usr/bin/gcc-ar"
+    found: "/usr/sbin/gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "find-v1"
     backtrace:
@@ -1148,66 +1072,60 @@ events:
       - "gcc-ranlib15"
       - "gcc-ranlib"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/"
-      - "/home/shadoee/.local/share/omarchy/bin/"
+      - "/usr/sbin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/home/shadoee/.spicetify/"
     searched_directories:
-      - "/usr/bin/gcc-ranlib-15.2"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/gcc-ranlib-15.2"
-      - "/home/shadoee/.local/share/omarchy/bin/gcc-ranlib-15.2"
+      - "/usr/sbin/gcc-ranlib-15.2"
       - "/usr/local/sbin/gcc-ranlib-15.2"
       - "/usr/local/bin/gcc-ranlib-15.2"
-      - "/var/lib/flatpak/exports/bin/gcc-ranlib-15.2"
+      - "/usr/bin/gcc-ranlib-15.2"
+      - "/sbin/gcc-ranlib-15.2"
+      - "/bin/gcc-ranlib-15.2"
       - "/usr/lib/jvm/default/bin/gcc-ranlib-15.2"
       - "/usr/bin/site_perl/gcc-ranlib-15.2"
       - "/usr/bin/vendor_perl/gcc-ranlib-15.2"
       - "/usr/bin/core_perl/gcc-ranlib-15.2"
-      - "/home/shadoee/.spicetify/gcc-ranlib-15.2"
-      - "/usr/bin/gcc-ranlib-15"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/gcc-ranlib-15"
-      - "/home/shadoee/.local/share/omarchy/bin/gcc-ranlib-15"
+      - "/usr/sbin/gcc-ranlib-15"
       - "/usr/local/sbin/gcc-ranlib-15"
       - "/usr/local/bin/gcc-ranlib-15"
-      - "/var/lib/flatpak/exports/bin/gcc-ranlib-15"
+      - "/usr/bin/gcc-ranlib-15"
+      - "/sbin/gcc-ranlib-15"
+      - "/bin/gcc-ranlib-15"
       - "/usr/lib/jvm/default/bin/gcc-ranlib-15"
       - "/usr/bin/site_perl/gcc-ranlib-15"
       - "/usr/bin/vendor_perl/gcc-ranlib-15"
       - "/usr/bin/core_perl/gcc-ranlib-15"
-      - "/home/shadoee/.spicetify/gcc-ranlib-15"
-      - "/usr/bin/gcc-ranlib15"
-      - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin/gcc-ranlib15"
-      - "/home/shadoee/.local/share/omarchy/bin/gcc-ranlib15"
+      - "/usr/sbin/gcc-ranlib15"
       - "/usr/local/sbin/gcc-ranlib15"
       - "/usr/local/bin/gcc-ranlib15"
-      - "/var/lib/flatpak/exports/bin/gcc-ranlib15"
+      - "/usr/bin/gcc-ranlib15"
+      - "/sbin/gcc-ranlib15"
+      - "/bin/gcc-ranlib15"
       - "/usr/lib/jvm/default/bin/gcc-ranlib15"
       - "/usr/bin/site_perl/gcc-ranlib15"
       - "/usr/bin/vendor_perl/gcc-ranlib15"
       - "/usr/bin/core_perl/gcc-ranlib15"
-      - "/home/shadoee/.spicetify/gcc-ranlib15"
-    found: "/usr/bin/gcc-ranlib"
+    found: "/usr/sbin/gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/bin"
-        - "/home/shadoee/.local/share/omarchy/bin/"
         - "/usr/local/sbin"
         - "/usr/local/bin"
+        - "/usr/sbin"
         - "/usr/bin"
-        - "/var/lib/flatpak/exports/bin"
+        - "/sbin"
+        - "/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/home/shadoee/.spicetify"
-        - "/home/shadoee/.spicetify"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -1217,8 +1135,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/CMakeScratch/TryCompile-x8a9ws"
-      binary: "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/CMakeScratch/TryCompile-x8a9ws"
+      source: "/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/CMakeScratch/TryCompile-CMwjU6"
+      binary: "/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/CMakeScratch/TryCompile-CMwjU6"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1227,22 +1145,22 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/CMakeScratch/TryCompile-x8a9ws'
+        Change Dir: '/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/CMakeScratch/TryCompile-CMwjU6'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_02686/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_02686.dir/build.make CMakeFiles/cmTC_02686.dir/build
-        make[1]: Entering directory '/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/CMakeScratch/TryCompile-x8a9ws'
-        Building C object CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_80adb/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_80adb.dir/build.make CMakeFiles/cmTC_80adb.dir/build
+        make[1]: Entering directory '/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/CMakeScratch/TryCompile-CMwjU6'
+        Building C object CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.o
+        /usr/sbin/cc   -v -o CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/cc
+        COLLECT_GCC=/usr/sbin/cc
         Target: x86_64-pc-linux-gnu
-        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Configured with: /tmp/pkg/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.1 20250813 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02686.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_02686.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccVz64re.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_80adb.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_80adb.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccxznth2.s
         GNU C23 (GCC) version 15.2.1 20250813 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 15.2.1 20250813, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1255,33 +1173,33 @@ events:
          /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed
          /usr/include
         End of search list.
-        Compiler executable checksum: 09af9d42b9185573b6c370dd7aa39e64
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02686.dir/'
-         as -v --64 -o CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.o /tmp/ccVz64re.s
+        Compiler executable checksum: fca2d478af73e0710ef9e59cbdcff39a
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_80adb.dir/'
+         as -v --64 -o CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.o /tmp/ccxznth2.s
         GNU assembler version 2.45.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.45.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_02686
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02686.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_80adb
+        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_80adb.dir/link.txt --verbose=1
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/cc
+        COLLECT_GCC=/usr/sbin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper
         Target: x86_64-pc-linux-gnu
-        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Configured with: /tmp/pkg/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.1 20250813 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_02686' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_02686.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc33KFGX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_02686 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_80adb' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_80adb.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWaGtDD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_80adb /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         collect2 version 15.2.1 20250813
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc33KFGX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_02686 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        /usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWaGtDD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_80adb /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.45.0
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_02686' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_02686.'
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.o -o cmTC_02686
-        make[1]: Leaving directory '/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/CMakeScratch/TryCompile-x8a9ws'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_80adb' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_80adb.'
+        /usr/sbin/cc  -v -Wl,-v CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.o -o cmTC_80adb
+        make[1]: Leaving directory '/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/CMakeScratch/TryCompile-CMwjU6'
         
       exitCode: 0
   -
@@ -1316,22 +1234,22 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/CMakeScratch/TryCompile-x8a9ws']
+        ignore line: [Change Dir: '/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/CMakeScratch/TryCompile-CMwjU6']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_02686/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_02686.dir/build.make CMakeFiles/cmTC_02686.dir/build]
-        ignore line: [make[1]: Entering directory '/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/CMakeScratch/TryCompile-x8a9ws']
-        ignore line: [Building C object CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_80adb/fast]
+        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_80adb.dir/build.make CMakeFiles/cmTC_80adb.dir/build]
+        ignore line: [make[1]: Entering directory '/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/CMakeScratch/TryCompile-CMwjU6']
+        ignore line: [Building C object CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/sbin/cc   -v -o CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_GCC=/usr/sbin/cc]
         ignore line: [Target: x86_64-pc-linux-gnu]
-        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Configured with: /tmp/pkg/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.1 20250813 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02686.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_02686.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccVz64re.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_80adb.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_80adb.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccxznth2.s]
         ignore line: [GNU C23 (GCC) version 15.2.1 20250813 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.1 20250813  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1344,32 +1262,32 @@ events:
         ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: 09af9d42b9185573b6c370dd7aa39e64]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02686.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.o /tmp/ccVz64re.s]
+        ignore line: [Compiler executable checksum: fca2d478af73e0710ef9e59cbdcff39a]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_80adb.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.o /tmp/ccxznth2.s]
         ignore line: [GNU assembler version 2.45.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.45.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_02686]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02686.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_80adb]
+        ignore line: [/usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_80adb.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_GCC=/usr/sbin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper]
         ignore line: [Target: x86_64-pc-linux-gnu]
-        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Configured with: /tmp/pkg/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.1 20250813 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_02686' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_02686.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc33KFGX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_02686 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_80adb' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_80adb.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWaGtDD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_80adb /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc33KFGX.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccWaGtDD.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1384,7 +1302,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_02686] ==> ignore
+          arg [cmTC_80adb] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
@@ -1396,7 +1314,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -1411,8 +1329,8 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         ignore line: [collect2 version 15.2.1 20250813]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc33KFGX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_02686 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_02686.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
-        linker tool for 'C': /usr/bin/ld
+        ignore line: [/usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWaGtDD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_80adb /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_80adb.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        linker tool for 'C': /usr/sbin/ld
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
@@ -1437,7 +1355,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     message: |
-      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      Running the C compiler's linker: "/usr/sbin/ld" "-v"
       GNU ld (GNU Binutils) 2.45.0
   -
     kind: "try_compile-v1"
@@ -1448,8 +1366,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/CMakeScratch/TryCompile-RkXZ0n"
-      binary: "/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/CMakeScratch/TryCompile-RkXZ0n"
+      source: "/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/CMakeScratch/TryCompile-qmo0SS"
+      binary: "/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/CMakeScratch/TryCompile-qmo0SS"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1459,22 +1377,22 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/CMakeScratch/TryCompile-RkXZ0n'
+        Change Dir: '/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/CMakeScratch/TryCompile-qmo0SS'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2d9eb/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_2d9eb.dir/build.make CMakeFiles/cmTC_2d9eb.dir/build
-        make[1]: Entering directory '/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/CMakeScratch/TryCompile-RkXZ0n'
-        Building CXX object CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -std=gnu++23   -v -o CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_e54b0/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_e54b0.dir/build.make CMakeFiles/cmTC_e54b0.dir/build
+        make[1]: Entering directory '/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/CMakeScratch/TryCompile-qmo0SS'
+        Building CXX object CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/sbin/c++   -std=gnu++23   -v -o CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/c++
+        COLLECT_GCC=/usr/sbin/c++
         Target: x86_64-pc-linux-gnu
-        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Configured with: /tmp/pkg/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.1 20250813 (GCC) 
-        COLLECT_GCC_OPTIONS='-std=gnu++23' '-v' '-o' 'CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d9eb.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2d9eb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=gnu++23 -version -o /tmp/cciWAvgD.s
+        COLLECT_GCC_OPTIONS='-std=gnu++23' '-v' '-o' 'CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e54b0.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e54b0.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=gnu++23 -version -o /tmp/ccrJzudV.s
         GNU C++23 (GCC) version 15.2.1 20250813 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 15.2.1 20250813, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1490,33 +1408,33 @@ events:
          /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed
          /usr/include
         End of search list.
-        Compiler executable checksum: 452a313327dacf71986995db29f6855a
-        COLLECT_GCC_OPTIONS='-std=gnu++23' '-v' '-o' 'CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d9eb.dir/'
-         as -v --64 -o CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.o /tmp/cciWAvgD.s
+        Compiler executable checksum: cab77a304445d9e79d1e131c5398a7c2
+        COLLECT_GCC_OPTIONS='-std=gnu++23' '-v' '-o' 'CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e54b0.dir/'
+         as -v --64 -o CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccrJzudV.s
         GNU assembler version 2.45.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.45.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-std=gnu++23' '-v' '-o' 'CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_2d9eb
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d9eb.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-std=gnu++23' '-v' '-o' 'CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_e54b0
+        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_e54b0.dir/link.txt --verbose=1
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/c++
+        COLLECT_GCC=/usr/sbin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper
         Target: x86_64-pc-linux-gnu
-        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Configured with: /tmp/pkg/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.1 20250813 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d9eb' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2d9eb.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrs7yLI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_2d9eb /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e54b0' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e54b0.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmbi5WK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e54b0 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         collect2 version 15.2.1 20250813
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrs7yLI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_2d9eb /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        /usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmbi5WK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e54b0 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.45.0
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d9eb' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2d9eb.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2d9eb
-        make[1]: Leaving directory '/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/CMakeScratch/TryCompile-RkXZ0n'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e54b0' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e54b0.'
+        /usr/sbin/c++  -v -Wl,-v CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e54b0
+        make[1]: Leaving directory '/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/CMakeScratch/TryCompile-qmo0SS'
         
       exitCode: 0
   -
@@ -1557,22 +1475,22 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/CMakeScratch/TryCompile-RkXZ0n']
+        ignore line: [Change Dir: '/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/CMakeScratch/TryCompile-qmo0SS']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2d9eb/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_2d9eb.dir/build.make CMakeFiles/cmTC_2d9eb.dir/build]
-        ignore line: [make[1]: Entering directory '/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/CMakeScratch/TryCompile-RkXZ0n']
-        ignore line: [Building CXX object CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -std=gnu++23   -v -o CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_e54b0/fast]
+        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_e54b0.dir/build.make CMakeFiles/cmTC_e54b0.dir/build]
+        ignore line: [make[1]: Entering directory '/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/CMakeScratch/TryCompile-qmo0SS']
+        ignore line: [Building CXX object CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/sbin/c++   -std=gnu++23   -v -o CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_GCC=/usr/sbin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
-        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Configured with: /tmp/pkg/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.1 20250813 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++23' '-v' '-o' 'CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d9eb.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2d9eb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=gnu++23 -version -o /tmp/cciWAvgD.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++23' '-v' '-o' 'CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e54b0.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e54b0.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=gnu++23 -version -o /tmp/ccrJzudV.s]
         ignore line: [GNU C++23 (GCC) version 15.2.1 20250813 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.1 20250813  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1588,32 +1506,32 @@ events:
         ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: 452a313327dacf71986995db29f6855a]
-        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++23' '-v' '-o' 'CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d9eb.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.o /tmp/cciWAvgD.s]
+        ignore line: [Compiler executable checksum: cab77a304445d9e79d1e131c5398a7c2]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++23' '-v' '-o' 'CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e54b0.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccrJzudV.s]
         ignore line: [GNU assembler version 2.45.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.45.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++23' '-v' '-o' 'CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_2d9eb]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d9eb.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++23' '-v' '-o' 'CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_e54b0]
+        ignore line: [/usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_e54b0.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_GCC=/usr/sbin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper]
         ignore line: [Target: x86_64-pc-linux-gnu]
-        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Configured with: /tmp/pkg/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://github.com/CachyOS/CachyOS-PKGBUILDS/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.1 20250813 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d9eb' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2d9eb.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrs7yLI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_2d9eb /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e54b0' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e54b0.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmbi5WK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e54b0 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccrs7yLI.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccmbi5WK.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1628,7 +1546,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_2d9eb] ==> ignore
+          arg [cmTC_e54b0] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
@@ -1640,7 +1558,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1651,8 +1569,8 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         ignore line: [collect2 version 15.2.1 20250813]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrs7yLI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_2d9eb /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2d9eb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
-        linker tool for 'CXX': /usr/bin/ld
+        ignore line: [/usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmbi5WK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e54b0 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e54b0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        linker tool for 'CXX': /usr/sbin/ld
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
@@ -1677,6 +1595,6 @@ events:
       - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     message: |
-      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      Running the CXX compiler's linker: "/usr/sbin/ld" "-v"
       GNU ld (GNU Binutils) 2.45.0
 ...

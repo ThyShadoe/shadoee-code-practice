@@ -1,3 +1,3 @@
-/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/fueltracker.dir
-/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/edit_cache.dir
-/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/CMakeFiles/rebuild_cache.dir
+/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/fueltracker.dir
+/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/edit_cache.dir
+/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/CMakeFiles/rebuild_cache.dir

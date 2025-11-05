@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/shadoee/Work/shadoee-code-practice/fuel-tracker/build/cmake_install.cmake"
+		"/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

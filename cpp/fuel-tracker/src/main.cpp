@@ -1,11 +1,8 @@
-#include "classes.h"
+#include <iostream>
+
+using namespace std;
 
 int main(int argc, char *argv[]) {
-
-  FuelTracker fueltracker;
-
-  system("clear");
-  fueltracker.run();
-
+  cout << "Hello, World!\n";
   return 0;
 }

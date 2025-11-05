@@ -1,5 +1,11 @@
 #include <iostream>
+#include <vector>
 using namespace std;
+
+class FuelLog {
+public:
+private:
+};
 
 class FuelTracker {
 public:
@@ -27,18 +33,18 @@ public:
            << "| [1] Yes              |\n"
            << "| [0] Go Back          |\n"
            << "+----------------------+\n";
-      cout << "Enter Menu Choice: ";
+      cout << "Select Menu Option: ";
       cin >> choice;
       switch (choice) {
       case 1:
         system("clear");
-        cout << "Thingy";
+        cout << "New Fuel Log added successfully!";
         break;
       case 0:
         system("clear");
         break;
       default:
-        cout << "Invalid Menu Choice!";
+        cout << "Invalid menu option.";
       }
     } while (choice != 0);
   }
@@ -67,10 +73,11 @@ public:
       case 0:
         break;
       default:
-        cout << "FuelTracker.run_case_default";
+        cout << "Invalid menu option.";
       }
     } while (choice != 0);
   }
 
 private:
+  vector<FuelLog> fuelLog;
 };
