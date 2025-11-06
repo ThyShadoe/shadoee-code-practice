@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker-new/src/main.cpp" "CMakeFiles/fueltracker.dir/src/main.cpp.o" "gcc" "CMakeFiles/fueltracker.dir/src/main.cpp.o.d"
+  "/home/shadoee/Repos/shadoee-code-practice/cpp/fuel-tracker/src/main.cpp" "CMakeFiles/fueltracker.dir/src/main.cpp.o" "gcc" "CMakeFiles/fueltracker.dir/src/main.cpp.o.d"
   "" "fueltracker" "gcc" "CMakeFiles/fueltracker.dir/link.d"
   )
 
